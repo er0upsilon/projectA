@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+<div class="wrap" >
+   <div>
+   <form class="search" action="{{ url_for('main') }}"  method="POST">
+       <input type="text" class="searchTerm" id="autoComplete" autocomplete="off" name="movie_name" placeholder="Enter a full movie name">
+       <button class="searchButton" type="submit"  value="Submit">
+       </button>
+   </form>
+</div>
+</body>
+</html>
